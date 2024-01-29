@@ -1,0 +1,14 @@
+names:
+- Paper
+- Rock
+- Scissors
+nc: 3
+roboflow:
+  license: Private
+  project: rock-paper-scissors-detection
+  url: https://universe.roboflow.com/team-roboflow/rock-paper-scissors-detection/dataset/44
+  version: 44
+  workspace: team-roboflow
+test: ../test/images
+train: Rock-Paper-Scissors-44/train/images
+val: Rock-Paper-Scissors-44/valid/images
